@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(143, 233, 177);
+    padding: auto;
+    
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 40vw;
+    background-color: rgb(34, 41, 150);
+    max-height: 65vh;
+    overflow-y:scroll;
+    margin-top: 4rem;
+}
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.texts{
+    font-size: 1.8rem;
+}
+.add{
+    font-size: 1.5rem;
+    border-radius: 20%;
+    background-color: rgb(55, 245, 137);
+}
+.task{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    height: 70%;
+    margin-top: 2rem;
+}
+.task1{
+    display: flex;
+    gap: 2rem ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5rem;
+    height: 2rem;
+    margin: 1rem;
+    background: black;
+    color: white;
+}
+.edit{
+    background-color: lightgreen;
+    font-size: 1.5rem;
+    border-radius: 30%;
+}
+.delete{
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    border-radius: 30%;
+}
+.text{
+    font-size: 1.5rem;
+    width:12rem;
+}
+.options{
+    margin: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.all{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30%;
+}
+.pending{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30%;
+}
+.completed{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30%;
+}
+.hide{
+    display: none;
+}
+
+
+
